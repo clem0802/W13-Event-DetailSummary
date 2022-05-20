@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+#box1 {
+    height: 100px;
+    width: 100px;
+    border: 10px solid rebeccapurple;
+    background-color: rebeccapurple;
+    color: white;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+#box2 {
+    height: 100px;
+    width: 100px;
+    border: 10px solid dodgerblue;
+    background-color: dodgerblue;
+    color: white;
+    margin-left: 25%;
+    margin-top: 5%;
+}

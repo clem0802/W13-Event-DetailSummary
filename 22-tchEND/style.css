@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+}
+
+#box {
+    height: 100px;
+    width: 100px;
+    border: 10px solid rebeccapurple;
+    background-color: rebeccapurple;
+    color: white;
+    margin-left: 25%;
+    margin-top: 5%;
+}

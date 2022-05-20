@@ -1,0 +1,9 @@
+#airplane {
+    margin-left: 35%;
+}
+
+hr.solid {
+    border-top: 10px solid black;
+    width: 100%;
+    margin-top: 40px;
+}

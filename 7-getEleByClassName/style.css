@@ -1,0 +1,29 @@
+body{
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+}
+img{
+    width: 40%;
+}
+ul{
+    list-style: circle;
+    text-align: left;
+}
+li{
+    font-weight: bold;
+}
+.task1{
+    color: red;
+    font-size: 25px;
+}
+.task2{
+    color: orange;
+    font-size: 25px;
+}
+.task3{
+    color: dodgerblue;
+    font-size: 25px;
+}
+#output{
+    text-align: center;
+}

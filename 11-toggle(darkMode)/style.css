@@ -1,0 +1,60 @@
+body {
+text-align: center;
+background: whitesmoke;
+}
+
+h1{
+font-family: sans-serif;
+}
+
+header {
+background: darkgray;
+padding: 10px 0px;
+margin-bottom: 10px;
+}
+
+button {
+margin: 5px 5px;
+padding: 8px 8px 8px 8px;
+min-width: 80px;
+max-width: 120px;
+border-radius: 5px;
+font-weight: bold;
+border: 0px solid;
+outline: none;
+background-color:#5e5e85;
+color: white;
+}
+
+img {
+display: block;
+margin: 10px auto;
+}
+
+.darkMode {
+background: black;
+color: white;
+}
+
+.grid{
+display: flex;
+direction: row;
+justify-content:space-evenly;
+align-content: space-around;
+flex-wrap: wrap;
+}
+
+.hidden{
+display: none;
+}
+
+.border {
+border: solid black 3px;
+border-style: groove;
+margin:10px 30px;
+padding: 20px 0px;
+}
+
+.bg-white {
+background-color:white;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+ <body>
+  <h1>My Code Projects</h1>
+
+  <details>
+    <summary>Date picker </summary> 
+    A widget to show a calendar.
+  </details>
+  <details>
+    <summary>Image Carousel</summary>       
+    Show images in a horizontal scrolling view
+  </details>
+
+ </body>
+</html>
+
+
+/*----------------------*/
+<!doctype html>
+<html>
+ <head>
+  <title>Job Posting</title>
+ </head>
+ <body>
+  <h1>QA Engineer</h1>
+  <p>Acme Austin, TX 5 days ago 29 applicants </p>
+    <details>
+        <summary> View Job Details </summary>
+        <p>
+        As an Engineer in Test, you'll work in a key position where
+        your efforts will have a noticeable impact on both the company and
+        product 
+        </p>
+    </details>
+ </body>
+</html>
+
+
+/*----------------------*/
+// Set the text of the div by using  .children[1].innerHTML
+// with INDEX
+<!doctype html>
+<html>
+ <head>
+  <title>Holiday Schedule</title>
+  <head>
+  <body>
+   <div>Thanksgiving Eve - Close Early</div>
+   <div></div>
+   <script>
+    document.body.children[1].innerHTML = "Thanksgiving - Closed"
+   </script>
+  </body>
+</html>
+
+// Thanksgiving Eve - Close Early
+// Thanksgiving - Closed
+
+
+/*----------------------*/
+// Set the text of the div by using  .firstElementChild.innerHTML
+<!doctype html>
+<html>
+ <head>
+  <title>Holiday Schedule</title>
+  <head>
+  <body>
+   <div></div>
+   <script>
+    document.body.firstElementChild.innerHTML = "Christmas - Closed"
+   </script>
+  </body>
+</html>
+
+// Christmas - Closed (output)
+// there is also 
+// document.body.firstElementChild.nextElementSibling.innerHTML = "qdkfjqdmjrmejj"
+
+
+/*----------------------*/
+// list stores the second child of body, ul. 
+// Use .innerHTML to set the text of the firstElementChild of list to components.
+<!doctype html>
+<html>
+ <head><title>React Class</title></head>
+ <body>
+  <h3>What we'll learn: </h3>
+  <ul>
+   <li></li> //
+   <li>hooks</li>
+  </ul>
+ </body>
+
+ <script>
+    var list = document.body.children[1];
+    list.firstElementChild.innerHTML = "components";
+ </script>
+</html>
+
+
+/*----------------------*/
+<!doctype html>
+<html>
+ <head><title>Swag Bags</title></head>
+ <body>
+  <h3>Included in the bag: </h3>
+  <div></div> //
+ </body>
+
+ <script>
+    var first = document.body.children[0];
+    first.nextElementSibling.innerHTML = "toys, pens";
+ </script>
+</html>

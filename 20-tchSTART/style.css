@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+}
+
+#box {
+    height: 120px;
+    width: 120px;
+    border: 10px solid dodgerblue;
+}
